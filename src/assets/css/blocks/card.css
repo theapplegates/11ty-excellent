@@ -15,7 +15,7 @@
 .card h2,
 .card h3 {
   font-family: var(--font-base);
-  font-size: var(--size-step-2);
+  font-size: var(--size-step-1);
 }
 
 .card h2 a,

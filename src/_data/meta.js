@@ -1,23 +1,23 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  siteName: 'Living Life',
   siteDescription:
     'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
-  siteType: 'Person', // schema
+  siteType: 'Blog', // schema
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
   author: {
-    name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+    name: 'Paul Applegate', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
-    email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-    website: 'https.://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+    email: 'me@paulapplegate.com', // i.e. hola@lenesaile.com - email of the author
+    website: 'https.://paulapplegate.com' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
-    name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-    email: 'hola@lenesaile.com',
-    website: 'https://www.lenesaile.com',
-    social: 'https://front-end.social/@lene'
+    name: 'Paul Applegate', // i.e. Lene Saile - creator's (developer) name.
+    email: 'me@paulapplegate.com',
+    website: 'https://paulapplegate.com',
+    social: 'https://front-end.social/'
   },
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded

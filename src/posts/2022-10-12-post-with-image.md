@@ -47,3 +47,5 @@ The class names are passed in the outer container, the `<picture>` or `<figure>`
 ### Example image with all the arguments
 
 {% eleventyImage "./src/assets/images/gallery/asturias-3.jpg", "alt text", null, "lazy", "popout", "(min-width:30em) 50vw, 100vw", [200, 400] %}
+
+{% eleventyImage "./src/assets/images/blog/Luke.jpg", "My dog Luke", "A King Charles Cavalier." %}
