@@ -67,6 +67,7 @@ module.exports = {
 
   // Disables Tailwind's reset etc
   corePlugins: {
+    modifiers: true,
     preflight: false
   },
   plugins: [
