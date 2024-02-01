@@ -1,11 +1,8 @@
 module.exports = {
-<<<<<<< HEAD
-  url: process.env.URL || 'http://localhost:8080',
+  url: process.env.URL || 'https://paulapplegate.com',
   siteName: 'Living Life',
-=======
   url: process.env.URL || 'https://paulapplegate.com',
   siteName: 'Eleventy Excellent',
->>>>>>> main
   siteDescription:
     'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
   siteType: 'Blog', // schema
@@ -15,21 +12,16 @@ module.exports = {
   author: {
     name: 'Paul Applegate', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
-<<<<<<< HEAD
     email: 'me@paulapplegate.com', // i.e. hola@lenesaile.com - email of the author
-    website: 'https.://paulapplegate.com' // i.e. https.://www.lenesaile.com - the personal site of the author
-=======
+    website: 'https://paulapplegate.com' // i.e. https.://www.lenesaile.com - the personal site of the author
     email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-<<<<<<< HEAD
     website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
->>>>>>> main
   },
   creator: {
     name: 'Paul Applegate', // i.e. Lene Saile - creator's (developer) name.
     email: 'me@paulapplegate.com',
     website: 'https://paulapplegate.com',
     social: 'https://front-end.social/'
-=======
     website: 'https://paulapplegate.com' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
@@ -37,7 +29,6 @@ module.exports = {
     email: 'hola@lenesaile.com',
     website: 'https://paulapplegate.com',
     social: 'https://front-end.social/@lene'
->>>>>>> main
   },
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
