@@ -1,5 +1,5 @@
 module.exports = {
-  url: process.env.URL || 'http://localhost:8080',
+  url: process.env.URL || 'https://paulapplegate.com',
   siteName: 'Eleventy Excellent',
   siteDescription:
     'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
@@ -11,12 +11,12 @@ module.exports = {
     name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
     email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-    website: 'https.://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+    website: 'https.://paulapplegate.com' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
     name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
     email: 'hola@lenesaile.com',
-    website: 'https://www.lenesaile.com',
+    website: 'https://paulapplegate.com',
     social: 'https://front-end.social/@lene'
   },
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
