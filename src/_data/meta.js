@@ -10,8 +10,13 @@ module.exports = {
   author: {
     name: 'Paul Applegate', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
+<<<<<<< HEAD
     email: 'me@paulapplegate.com', // i.e. hola@lenesaile.com - email of the author
     website: 'https.://paulapplegate.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+=======
+    email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
+    website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+>>>>>>> main
   },
   creator: {
     name: 'Paul Applegate', // i.e. Lene Saile - creator's (developer) name.
@@ -55,7 +60,7 @@ module.exports = {
     providers: {
       // if you want to add more than one, edit the array directly.
       domain: 'netlify.com',
-      service: 'static-hosting'
+      service: 'cdn'
     },
     credentials: {
       // optional, eg: 	{ domain='my-org.com', doctype = 'webpage', url = 'https://my-org.com/our-climate-record'}
